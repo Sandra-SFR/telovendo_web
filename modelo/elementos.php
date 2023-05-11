@@ -130,9 +130,10 @@ class elementos
      **/
     public static function nav_ventas(){
         echo '<ul>
-                <li><a href="../index.php">Home/a></li>
+                <li><a href="../index.php">Home</li>
                 <li><a href="gestionar_usuarios.php">Usuarios</a></li>
                 <li><a href="gestionar_productos.php">Productos</a></li>
+                <li><a class="pactual" href="gestionar_ventas.php">Ventas</a></li>
                 <li><a href="registrar_venta.php">Registrar ventas</a></li>               
             </ul>';
     }

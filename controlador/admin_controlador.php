@@ -1,7 +1,7 @@
 <?php
 require_once ("../modelo/usuarios_modelo.php");
 require_once ("../modelo/productos_modelo.php");
-/*require_once ("../modelo/ventas_modelo.php");*/
+require_once ("../modelo/ventas_modelo.php");
 require_once ("../modelo/admin_modelo.php");
 
 
@@ -52,9 +52,9 @@ $campo=null;
 $validacion=true;
 $controlador = new Admin_Controlador();
 
-/*require_once ('admin_forms/admin_eliminar_usuario.php');
+require_once ('admin_forms/admin_eliminar_usuario.php');
 require_once ('admin_forms/admin_modificar_usuario.php');
 require_once ('admin_forms/admin_eliminar_producto.php');
 require_once ('admin_forms/admin_modificar_producto.php');
-require_once ('admin_forms/admin_modificar_venta.php');*/
+require_once ('admin_forms/admin_modificar_venta.php');
 ?>
